@@ -37,5 +37,10 @@
 ### 5.合并视频（使用各种手段即可，不仅仅是编程手段：主要是使用软件将片段视频合并成一个整体的视频）。
 #### 目标网址：https://www.91kanju.com/vod-play/54812-1-1.html
 ## 5.Selenium 浏览器模拟
+### 01.selenium引入介绍：
+### 环境的搭建：
+### 1.pip install selenium
+### 2.浏览器的驱动：网址：https://npm.taobao.org/mirrors/chromedriver 默认情况下是谷歌浏览器（根据自己浏览器的版本进行下载，如果没有可以下载上一个版本）
+#### 目标网址：https://www.endata.com.cn/BoxOffice/BO/Year/index.html
 ## 6.WebSpider基础知识讲解
 ### 本章节为WebSpider基础知识讲解和复习，并且对现有知识进行相应的扩充。具体查看文件夹下的 readme.md 文件。
