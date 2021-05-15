@@ -3,22 +3,22 @@
 # 目录
 ## 1.Bs4解析
 ### 01.介绍BeautifulSoup（现已内嵌到bs4库下面）的用法，实例爬取的是北京新发地的蔬菜价格，并且进行可持久化存储（csv文件），网页蔬菜的价格主要以表格的形式表现，首先获取表格的源代码，先找到每行，在遍历每一列即可。
-### 目标网址：http://www.xinfadi.com.cn/marketanalysis/0/list/1.shtml
+#### 目标网址：http://www.xinfadi.com.cn/marketanalysis/0/list/1.shtml
 ### 02.爬取优美图库的相关联的照片，进行可视化存储。
-### 目标网址：https://www.umei.cc/bizhitupian/weimeibizhi/
+#### 目标网址：https://www.umei.cc/bizhitupian/weimeibizhi/
 ## 2.Xpath解析
 ### 采用 lxml 库下面的 etree 进行提取猪八戒网站，提取相关的价格，目标标题，名字。
-### 目标网址：https://jinzhou.zbj.com/search/f/?type=new&kw=saas
+#### 目标网址：https://jinzhou.zbj.com/search/f/?type=new&kw=saas
 ## 3.综合训练
 ### 目标分析：综合练习爬取网易云音乐的评论。
 ### 相关介绍：
 ### 1.网易云音乐的评论在源代码里面看不到，因为是 json 阿贾克斯请求，必须导入 json 包进行提取。
 ### 2.通过 Chrome 浏览器开发者工具的分析，发现评论信息以被加密，必须进行解密（需要导入 from Crypto.Cipher import AES 包进行解析）。
 ### 3.最后提取相关评论，进行可视化存储。
-### 目标网址：https://music.163.com （任意网易云音乐的评论即可）
+#### 目标网址：https://music.163.com （任意网易云音乐的评论即可）
 ## 4.多线程
 ### 01.在单线程的状态下，爬取相关的网站数据缓慢，在本节项目下使用多线程 ThreadPoolExecutor 模块进行高效率爬取北京新发地的菜价（对照BS4 01项目），首先对蔬菜价格进行提取，然后创建线程池，将任务传送给线程池，最后将数据写入csv文件，进行可视化存储。
-### 目标网址：http://www.xinfadi.com.cn/marketanalysis/0/list/1.shtml （页码1换成 i 进行遍历，可以获取多个网页）。
+#### 目标网址：http://www.xinfadi.com.cn/marketanalysis/0/list/1.shtml （页码1换成 i 进行遍历，可以获取多个网页）。
 ### 02.协程练习：协程是当任务阻塞的情况下，会自动的切换成未阻塞的任务上。在宏观上是多任务一起在执行，在微观上是看是一个任务一个任务在切换。
 ### 03.协程：asyncio 操作,asyncio.run 一次开启多个任务，任务的执行效率很高。
 ### 04.异步操作 模块：aiohttp。项目目标：采用异步操作进行爬取多张图片，思路分析： 1 发送请求 2 得到图片的内容 3 保存到文件。
