@@ -68,6 +68,9 @@
 ### 1.使用 selenium 模块里面的 webdriver功能对其进行模拟浏览器自动的登录。
 ### 2.使用 Xpath 进行定位用户名，密码，和验证码，然后向网页源代码中填入相关的信息。（最好使其程序睡眠一段时间）
 ### 3.最后寻找到登录按钮，进行点击即可。
-#### 目标网站：http://www.chaojiying.com/user/login/ 
+#### 目标网站：http://www.chaojiying.com/user/login/
+## 07.处理12306登录
+### 相关介绍：使用超级鹰的模块解决12306网站的自动登录和验证码相关的问题。
+#### 目标网址：https://kyfw.12306.cn/otn/resources/login.html 
 ## 6.WebSpider基础知识讲解
 ### 本章节为WebSpider基础知识讲解和复习，并且对现有知识进行相应的扩充。具体查看文件夹下的 readme.md 文件。
