@@ -4,5 +4,5 @@
 ### 一般情况下，使用 Chrome 浏览器的开发者工具即可解决。
 ## 02.`urllib` 库的介绍
 ### 相关介绍：
-### 1.`important urllib.requeset` `reaponse` 相关知识介绍
-### 2.写入文件： ```with open() as fp:``` 相关介绍
+### 1.`important urllib.requeset` `reaponse` 相关知识介绍。
+### 2.写入文件： ```with open() as fp:``` 相关介绍。
