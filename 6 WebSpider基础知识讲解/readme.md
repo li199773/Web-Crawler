@@ -22,3 +22,5 @@
             'cookie':''
         }
 #### 目标网址：http://www.baidu.com/
+## 06 post请求
+#### 目标网址：https://fanyi.baidu.com/?aldtype=16047#auto/zh 
