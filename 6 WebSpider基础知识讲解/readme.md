@@ -23,4 +23,5 @@
         }
 #### 目标网址：http://www.baidu.com/
 ## 06 post请求
+## 相关介绍：之前介绍过 `get` 请求方式，这里主要介绍一下 `post` 的请求方式。
 #### 目标网址：https://fanyi.baidu.com/?aldtype=16047#auto/zh 
