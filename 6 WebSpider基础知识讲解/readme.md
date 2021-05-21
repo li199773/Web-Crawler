@@ -24,4 +24,8 @@
 #### 目标网址：http://www.baidu.com/
 ## 06 post请求
 ## 相关介绍：之前介绍过 `get` 请求方式，这里主要介绍一下 `post` 的请求方式。
+### 1.post请求讲解：阿贾克斯请求
+看 XHR 里面请求头里面有 X-Requested-With 的话就是 post 请求
+2.目标网址：https://fanyi.baidu.com/?aldtype=16047#auto/zh 百度翻译 搜索baby
+找到 XHR 即可 发现第四个 sug 是目标的网址，使用 www.json.cn 网址进行 json 格式的转换，发现可以进行json格式的转换
 #### 目标网址：https://fanyi.baidu.com/?aldtype=16047#auto/zh 
