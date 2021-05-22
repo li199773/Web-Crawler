@@ -1,3 +1,5 @@
 ## 01 `ajax_get` 请求介绍
-#### 目标网址:https://movie.douban.com/typerank?type_name=%E5%8A%A8%E4%BD%9C&type=5&interval_id=100:90&action=
+### 相关介绍：练习豆瓣电影的阿贾克斯请求的 get 请求。
+#### 目标网址:https://movie.douban.com/j/chart/top_list?type=5&interval_id=100%3A90&action=&' 
+
 
