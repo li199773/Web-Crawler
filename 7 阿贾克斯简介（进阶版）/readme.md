@@ -6,12 +6,12 @@
 ### 相关介绍：
 ### 1.传入参数，可以自定义城市
 ### 2.通过参数传入网页中
-form_data = {
-    'cname': city,
-    'pid': '',
-    'pageIndex': page,
-    'pageSize': size, # 只要是参数，一般情况下都是字符串，最好加上''
-}
+        form_data = {
+            'cname': city,
+            'pid': '',
+            'pageIndex': page,
+            'pageSize': size, # 只要是参数，一般情况下都是字符串，最好加上''
+        }
 #### 目标地址：http://www.kfc.com.cn/kfccda/ashx/GetStoreList.ashx?op=cname 
 ## 03 `ajax`贴吧（复杂GET的练习）
 #### 目标网址：https://tieba.baidu.com/f?kw=python&ie=utf-8&pn=150  
