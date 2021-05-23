@@ -5,5 +5,4 @@
 ## 02 `ajax_post` 请求介绍
 
 #### 目标地址：http://www.kfc.com.cn/kfccda/ashx/GetStoreList.ashx?op=cname 
-
-
+# 03 `ajax`
