@@ -12,6 +12,7 @@
             'pageIndex': page,
             'pageSize': size, # 只要是参数，一般情况下都是字符串，最好加上''
         }
+### 3.使用`urllib.request`进行网页的拼接。
 #### 目标地址：http://www.kfc.com.cn/kfccda/ashx/GetStoreList.ashx?op=cname 
 ## 03 `ajax`贴吧（复杂GET的练习）
 #### 目标网址：https://tieba.baidu.com/f?kw=python&ie=utf-8&pn=150  
