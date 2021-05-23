@@ -15,4 +15,5 @@
 ### 3.使用`urllib.request`进行网页的拼接。
 #### 目标地址：http://www.kfc.com.cn/kfccda/ashx/GetStoreList.ashx?op=cname 
 ## 03 `ajax`贴吧（复杂GET的练习）
+### 项目的需求：输入输入吧名，输入起始页码，输入结束页码，然后在当前文件夹下面创建一个以吧名字的文件夹，里面是每一页的html内容,文件名字是以吧_page.html。
 #### 目标网址：https://tieba.baidu.com/f?kw=python&ie=utf-8&pn=150  
