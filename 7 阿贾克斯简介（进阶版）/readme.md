@@ -4,8 +4,8 @@
 #### 目标网址:https://movie.douban.com/j/chart/top_list?type=5&interval_id=100%3A90&action=& 
 ## 02 `ajax_post` 请求介绍
 ### 相关介绍：
-### 1.传入参数，可以自定义城市
-### 2.通过参数传入网页中
+### 1.传入参数，可以自定义城市。
+### 2.通过参数传入网页中。
         form_data = {
             'cname': city,
             'pid': '',
