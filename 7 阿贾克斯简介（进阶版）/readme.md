@@ -22,4 +22,10 @@
         ba_name = input('请输入你要查找的吧名：')
         start_page = int(input('请输入开始的页数：'))
         end_page = int(input('请输入结束的页数：'))  # 数字 字符串类型，加上int()
+### 3.写入文件，进行保存。
+        os.mkdir(ba_name)
+        # 生成文件名
+        filename = ba_name + '_' + str(page) + '.html'
+        # 拼接文件路径
+        filepath = ba_name + '/' + filename
 #### 目标网址：https://tieba.baidu.com/f?kw=python&ie=utf-8&pn=150  
