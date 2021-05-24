@@ -16,7 +16,7 @@
 #### 目标地址：http://www.kfc.com.cn/kfccda/ashx/GetStoreList.ashx?op=cname 
 ## 03 `ajax`贴吧（复杂GET的练习）
 ### 项目的需求：输入输入吧名，输入起始页码，输入结束页码，然后在当前文件夹下面创建一个以吧名字的文件夹，里面是每一页的html内容,文件名字是以 吧_page.html。
-                ba_name = input('请输入你要查找的吧名：')
-                start_page = int(input('请输入开始的页数：'))
-                end_page = int(input('请输入结束的页数：'))  # 数字 字符串类型，加上int()
+        ba_name = input('请输入你要查找的吧名：')
+        start_page = int(input('请输入开始的页数：'))
+        end_page = int(input('请输入结束的页数：'))  # 数字 字符串类型，加上int()
 #### 目标网址：https://tieba.baidu.com/f?kw=python&ie=utf-8&pn=150  
