@@ -16,6 +16,7 @@
         print(response)
     except Exception as e:
         print(e.code)
+#### 目标网址：https://www.cnblogs.com/yfsm1123/p/1071344.html 
 ## 02 `Handler`处理器，自定义`Opener`
 ### 相关介绍：Handler处理器，自定义Opener
 ### 1.urlopen() 给一个请求头，发送请求对象，获取相应。
