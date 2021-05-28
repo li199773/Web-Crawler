@@ -40,11 +40,11 @@
 ### 4.读取`M3U8`文件，下载视频。
 ### 5.合并视频（使用各种手段即可，不仅仅是编程手段：主要是使用软件将片段视频合并成一个整体的视频）。
 #### 目标网址：https://www.91kanju.com/vod-play/54812-1-1.html
-## 5.Selenium 浏览器模拟
-### 01.selenium引入介绍：
-### 浏览器的驱动：网址：https://npm.taobao.org/mirrors/chromedriver 默认情况下是谷歌浏览器（根据自己浏览器的版本进行下载，如果没有可以下载上一个版本，把解压好的文件复制到python文件夹下即可。
+## 5.`Selenium` 浏览器模拟
+### 01.`selenium` 引入介绍：
+### 浏览器的驱动：网址：https://npm.taobao.org/mirrors/chromedriver 默认情况下是谷歌浏览器（根据自己浏览器的版本进行下载，如果没有可以下载上一个版本，把解压好的文件复制到python 文件夹下即可。
 #### 目标网址：https://www.endata.com.cn/BoxOffice/BO/Year/index.html
-## 02.Selenium 的各种操作
+## 02.`Selenium` 的各种操作
 ### 目标流程：
 ### 1.找到某个元素点击它，这里选用的是xpath。（这里找到的是进去页面看见全国）
 ### 2.找到搜索框，并在搜索框里面搜索python （有2种方法 直接回车/找到搜索按钮就可以）
