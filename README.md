@@ -82,8 +82,8 @@
 ### 4.使用 `drag_and_drop_by_offset` 解决进度条问题。
 ### 5.任务提交，开启自动登录。
 #### 目标网址：https://kyfw.12306.cn/otn/resources/login.html 
-## 6.`WebSpider`基础知识讲解
-### 本章节为WebSpider基础知识讲解和复习，并且对现有知识进行相应的扩充。具体查看文件夹下的 readme.md 文件。
+## 6.`WebSpider` 基础知识讲解
+### 本章节为 `WebSpider` 基础知识讲解和复习，并且对现有知识进行相应的扩充。具体查看文件夹下的 readme.md 文件。
 ## 7.阿贾克斯简介
 ### 本章节为 `ajax_get` `ajax_post` 请求的详细讲解，最后进行一个实战的训练。具体查看文件夹下的 readme.md 文件。
 ## 8.`ERROR`和代理
