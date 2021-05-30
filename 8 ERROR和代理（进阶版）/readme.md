@@ -19,8 +19,8 @@
 #### 目标网址：https://www.cnblogs.com/yfsm1123/p/1071344.html 
 ## 02 `Handler`处理器，自定义`Opener`
 ### 相关介绍：Handler处理器，自定义Opener
-### 1.urlopen() 给一个请求头，发送请求对象，获取相应。
-### 2.Request() 定制响应头，创建响应对象。
+### 1.`urlopen()` 给一个请求头，发送请求对象，获取相应。
+### 2.`Request()` 定制响应头，创建响应对象。
 ### 3.高级功能：使用代理，Cookie。
 #### 目标网址：http://www.baidu.com 
 ## 03 代理
