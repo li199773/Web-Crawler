@@ -6,7 +6,7 @@
 ### 相关操作:
 ### 1.找到相关的标签，使用正则表达式进行内容的提取。
 ### 2.创建文件夹：首先进行判断，如果没有这个文件夹才可以进行相关文件夹的创建，如果有的话，不进行文件夹的创建。
-    dirname = '糗图'
-    if not os.path.exists(dirname):
-        os.mkdir(dirname)
+        dirname = '糗图'
+        if not os.path.exists(dirname):
+            os.mkdir(dirname)
 #### 目标网站：https://www.qiushibaike.com/imgrank/page/1/ 
