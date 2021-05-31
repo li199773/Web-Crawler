@@ -9,5 +9,5 @@
         dirname = '糗图'
         if not os.path.exists(dirname):
             os.mkdir(dirname)
-### 3.进行主函数的编写：1.生成请求的对象。2.发送请求。3.
+### 3.进行主函数的编写：1.生成请求的对象。2.发送请求。3.解析内容，提取相关的图片信息，下载图片。
 #### 目标网站：https://www.qiushibaike.com/imgrank/page/1/ 
