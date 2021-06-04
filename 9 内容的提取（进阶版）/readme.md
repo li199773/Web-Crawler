@@ -25,4 +25,7 @@
         # print(a_href)
         title = href_title[1]
         text = get_text(a_href)
+### 5.构建主函数：def main():
+        start_page = int(input('请输入你要开始的页码:'))
+        end_page = int(input('请输入你要结束的页码:'))
 #### 目标网站：http://www.vipyl.com/article/139/list_1.html
