@@ -16,5 +16,6 @@
 ### 相关操作：
 ### 1.拼接 url ，并且请求头部信息`headers`。
         url = url + 'list_' + str(page) + '.html
-### 2.构建
+### 2.构建请求对象,进行解析详细网页的文字和图片。
+### 3.正则表达式进行提取相关联的信息。
 #### 目标网站：http://www.vipyl.com/article/139/list_1.html
