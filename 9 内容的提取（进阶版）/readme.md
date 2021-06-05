@@ -35,8 +35,8 @@
         print(soup.a)
         print(soup.div)
 ### 2.根据属性值来获取
-print(soup.a['title'])
-print(str(soup.a.attrs))
+        print(soup.a['title'])
+        print(str(soup.a.attrs))
 
 
 
