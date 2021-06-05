@@ -37,7 +37,8 @@
 ### 2.根据属性值来获取
         print(soup.a['title'])
         print(str(soup.a.attrs))
-
+### 3.find方法
+        print(soup.find('a', title='q'))
 
 
 
