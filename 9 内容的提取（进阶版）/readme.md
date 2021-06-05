@@ -37,9 +37,10 @@
 ### 2.根据属性值来获取
         print(soup.a['title'])
         print(str(soup.a.attrs))
-### 3.find方法
-        print(soup.find('a', title='q'))
-
+### 3.`find`,`find_all`方法
+        print(soup.find('a', title='q')) # 找到第一个 a 标签
+        print(soup.find_all('a')) # find_all 找到所有的 a 标签
+### 4.
 
 
 
