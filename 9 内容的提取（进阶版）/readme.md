@@ -30,3 +30,17 @@
         end_page = int(input('请输入你要结束的页码:'))
 #### 目标网站：http://www.vipyl.com/article/139/list_1.html
 ## 04 `bs4`详细介绍：`BeautifulSoup`
+### 相关介绍：本节主要介绍第二个内容提取器`BeautifulSoup`的使用。主要包括以下的介绍：
+### 1.根据标签名字查找
+        print(soup.a)
+        print(soup.div)
+### 2.根据属性值来获取
+print(soup.a['title'])
+print(str(soup.a.attrs))
+
+
+
+
+
+
+
