@@ -41,7 +41,8 @@
         print(soup.find('a', title='q')) # 找到第一个 a 标签
         print(soup.find_all('a')) # find_all 找到所有的 a 标签
 ### 4.`select`根据选择器来选择指定的内容
-
+        print(soup.select('.tang>ul>li>a')[1].text) # 获取文字
+        print(soup.select('.tang>ul>li>a')[1]['href']) # 获取网址
 
 
 
