@@ -30,17 +30,17 @@
         end_page = int(input('请输入你要结束的页码:'))
 #### 目标网站：http://www.vipyl.com/article/139/list_1.html
 ## 04 `bs4`详细介绍：`BeautifulSoup`
-### 相关介绍：本节主要介绍第二个内容提取器`BeautifulSoup`的使用。主要包括以下的介绍（更详细请查看py文件）
-### 1.根据标签名字查找
+### 相关介绍：本节主要介绍第二个内容提取器`BeautifulSoup`的使用。主要包括以下的介绍（更详细请查看py文件）。
+### 1.根据标签名字查找。
         print(soup.a)
         print(soup.div)
-### 2.根据属性值来获取
+### 2.根据属性值来获取。
         print(soup.a['title'])
         print(str(soup.a.attrs))
-### 3.`find`,`find_all`方法
+### 3.`find`,`find_all`方法。
         print(soup.find('a', title='q')) # 找到第一个 a 标签
         print(soup.find_all('a')) # find_all 找到所有的 a 标签
-### 4.`select`根据选择器来选择指定的内容
+### 4.`select`根据选择器来选择指定的内容。
         print(soup.select('.tang>ul>li>a')[1].text) # 获取文字
         print(soup.select('.tang>ul>li>a')[1]['href']) # 获取网址
 
