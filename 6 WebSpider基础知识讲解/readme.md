@@ -7,7 +7,7 @@
 ### 1.`important urllib.requeset` `reaponse` 相关知识介绍。
 ### 2.写入文件： ```with open() as fp:``` 相关介绍。
 ## 03 `parse` 的使用
-### 相关介绍：主要讲解了 parse 的用法和相关的定义，并且使用拼接作用实践
+### 相关介绍：主要讲解了 parse 的用法和相关的定义，并且使用拼接作用实践。
 #### 目标网址：http://www.baidu.com/ 
 ## 04 `get` 请求
 ## 相关介绍：
