@@ -44,6 +44,7 @@
         print(soup.select('.tang>ul>li>a')[1].text) # 获取文字
         print(soup.select('.tang>ul>li>a')[1]['href']) # 获取网址
 ## 05 智联招聘-bs4
-
+## 06 `Xpath`讲解
+## 
 
 
