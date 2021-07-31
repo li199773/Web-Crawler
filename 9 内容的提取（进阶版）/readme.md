@@ -17,7 +17,7 @@
 ### 1.拼接 url ，并且请求头部信息`headers`。
         url = url + 'list_' + str(page) + '.html
 ### 2.构建请求对象,进行解析详细网页的文字和图片。
-### 3.正则表达式进行提取相关联的信息
+### 3.正则表达式进行提取相关联的信息。
 ### 4.遍历整个元组，处理全部的详细页面的`url`和标题。
     for href_title in lt: # 处理全部的详细页面的url和标题
         a_href = 'http://www.vipyl.com/' + href_title[0]
