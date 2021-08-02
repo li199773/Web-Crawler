@@ -30,5 +30,5 @@
             'kw': word,
         }
 ### 3.百度翻译 搜索`baby`
-### 找到 `XHR` 即可 发现第四个 sug 是目标的网址，使用 www.json.cn 网址进行 `json` 格式的转换，发现可以进行json格式的转换。
+### 找到 `XHR` 即可 发现第四个 sug 是目标的网址，使用 www.json.cn 网址进行 `json` 格式的转换，发现可以进行json格式的转换
 #### 目标网址：https://fanyi.baidu.com/?aldtype=16047#auto/zh 
