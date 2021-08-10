@@ -64,3 +64,4 @@
 #### 3.读取内容：
         content = urllib.request.urlopen(request).read().decode('utf-8')  # 编码格式为charset=utf-8
 #### 4.内容的解析：使用`xpath`即可。
+        text = text.replace(u'\u3000', u'').replace('\n', '').replace('\r', '').replace(" ", "") # 去除所有的回车符\r和换行符\n，去除空格，去除\u3000
