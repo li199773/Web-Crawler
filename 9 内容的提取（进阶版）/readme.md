@@ -61,3 +61,5 @@
         end_page = int(input('请输入结束页码：'))
 #### 2.发起请求：构造请求头`headers`
         request = urllib.request.Request(url=url, headers=headers) # 发起请求
+#### 3.读取内容：
+        content = urllib.request.urlopen(request).read().decode('utf-8')  # 编码格式为charset=utf-8
