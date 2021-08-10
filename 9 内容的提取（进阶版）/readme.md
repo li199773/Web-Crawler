@@ -59,3 +59,5 @@
 #### 1.定义主函数，传入起始页和结束页，循环遍历每一URL进行解析段子文章。
         start_page = int(input('请输入起始页码：'))
         end_page = int(input('请输入结束页码：'))
+#### 2.发起请求：构造请求头`headers`
+        request = urllib.request.Request(url=url, headers=headers) # 发起请求
