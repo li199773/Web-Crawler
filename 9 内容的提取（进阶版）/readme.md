@@ -65,3 +65,6 @@
         content = urllib.request.urlopen(request).read().decode('utf-8')  # 编码格式为charset=utf-8
 #### 4.内容的解析：使用`xpath`即可。
         text = text.replace(u'\u3000', u'').replace('\n', '').replace('\r', '').replace(" ", "") # 去除所有的回车符\r和换行符\n，去除空格，去除\u3000
+#### 5.将爬取下来的信息以字典的形式进行存储。
+        item_list.append(item) # 将内容添加到字典中去,append添加的意思，将item添加到字典中去
+#### 6.数据的可视化存储。
