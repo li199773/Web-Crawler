@@ -78,3 +78,5 @@
         start_page = int(input('请输入开始的页码：'))
         end_page = int(input('请输入结束的页码：'))
         zhanzhang_spider = Zhanzhang(name, start_page, end_page)
+### 3.经过分析得知，网页第一页与之后的页码不一样子，所以进行判断输出
+### 4.文件解析和文件持久化保存。
