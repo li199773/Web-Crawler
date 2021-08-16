@@ -72,3 +72,8 @@
 ### 项目需求:首先获取网页的全部类型，然后根据用户输入的用户类型进行爬取制定页码的图片
 #### 目标网站：https://sc.chinaz.com
 ### 1.对目标网站发起请求，获取相应，使用xpath语法得到全部的图片类型。
+### 2.构造类：
+        name = input('请输入爬取图片类型名称：')
+        start_page = int(input('请输入开始的页码：'))
+        end_page = int(input('请输入结束的页码：'))
+        zhanzhang_spider = Zhanzhang(name, start_page, end_page)
